@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Program at a glance for A4 Workshop.">
+    <title>Program at a Glance | A4 Workshop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="A4 Workshop home">A4 Workshop</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">Menu</button>
+        <nav id="primary-navigation" class="primary-navigation" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <div class="nav-group active">
+            <button class="program-toggle" type="button" aria-expanded="false" aria-controls="program-submenu">Program</button>
+            <div id="program-submenu" class="program-submenu">
+              <a class="active" aria-current="page" href="program-at-a-glance.html">Program at a Glance</a>
+              <a href="program.html">Full Program</a>
+            </div>
+          </div>
+          <a href="speakers.html">Invited Speakers</a>
+          <a href="travel.html">Travel</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero"><div class="container"><h1>Program at a Glance</h1><p>An overview of the workshop schedule will be updated as the program is confirmed.</p></div></section>
+      <section class="content-section"><div class="container">
+        <figure class="program-overview" aria-labelledby="program-overview-title" aria-describedby="program-overview-description">
+          <figcaption class="program-overview-heading">
+            <div><h2 id="program-overview-title">Program at a Glance</h2></div>
+            <p id="program-overview-description">A four-day draft schedule organized by morning, lunch, afternoon, and evening periods. Empty cells indicate that no activity is currently listed.</p>
+          </figcaption>
+          <div class="program-overview-scroll" tabindex="0" aria-label="Scrollable four-day program overview">
+            <table class="program-overview-table">
+              <caption class="visually-hidden">A4 Workshop draft program overview, January 18 through January 21</caption>
+              <thead><tr><th scope="col">Time of day</th><th scope="col">Jan 18 <span>Mon</span></th><th scope="col">Jan 19 <span>Tue</span></th><th scope="col">Jan 20 <span>Wed</span></th><th scope="col">Jan 21 <span>Thu</span></th></tr></thead>
+              <tbody>
+                <tr><th scope="rowgroup" rowspan="3">Morning</th><td rowspan="3" class="schedule-empty"><span>No activity listed</span></td><td>Opening</td><td>Plenary</td><td rowspan="3">Discussion</td></tr>
+                <tr><td>Plenary</td><td rowspan="2">Invited Talks</td></tr>
+                <tr><td>Invited Talks</td></tr>
+                <tr class="schedule-lunch"><th scope="row">Lunch</th><td colspan="4">Lunch Break</td></tr>
+                <tr><th scope="rowgroup" rowspan="3">Afternoon</th><td rowspan="3">Lab Tour</td><td>Invited Talks</td><td rowspan="2">Invited Talks</td><td rowspan="3" class="schedule-empty"><span>No activity listed</span></td></tr>
+                <tr><td>Poster Session</td></tr>
+                <tr><td>Panel Discussion</td><td>Excursion</td></tr>
+                <tr><th scope="row">Evening</th><td class="schedule-empty"><span>No activity listed</span></td><td>Reception</td><td>Banquet</td><td class="schedule-empty"><span>No activity listed</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </figure>
+        <p class="glance-link"><a href="program.html">View Full Program <span aria-hidden="true">→</span></a></p>
+      </div></section>
+    </main>
+    <footer class="site-footer"><div class="container">A4 Workshop</div></footer>
+  </body>
+</html>
