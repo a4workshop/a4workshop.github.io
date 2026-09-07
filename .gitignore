@@ -1,0 +1,19 @@
+# Local preview and development output
+*.log
+*.pid
+http-server.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Dependency and build directories (not used by the current site)
+node_modules/
+dist/
+build/
