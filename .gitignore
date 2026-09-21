@@ -3,6 +3,10 @@
 *.pid
 http-server.log
 
+# Local source references and generated document artifacts
+reference/
+output/
+
 # Operating system files
 .DS_Store
 Thumbs.db
